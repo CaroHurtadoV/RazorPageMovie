@@ -31,6 +31,7 @@ namespace RazorPageMovie.Models
                         RealeseDate = DateTime.Parse("1991-02-01"),
                         Genre = "Aventura",
                         Price = 55.96M,
+                        Rating = "A"
                     },
                     new Movie
                     {
@@ -38,6 +39,7 @@ namespace RazorPageMovie.Models
                         RealeseDate = DateTime.Parse("1999-10-11"),
                         Genre = "Comic",
                         Price = 45M,
+                        Rating = "C"
                     },
                     new Movie
                     {
@@ -45,6 +47,7 @@ namespace RazorPageMovie.Models
                         RealeseDate = DateTime.Parse("2023-10-15"),
                         Genre = "Caricatura",
                         Price = 6.55M,
+                        Rating = "C"
                     }
 
                     );
